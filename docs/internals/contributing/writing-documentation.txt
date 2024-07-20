@@ -622,3 +622,21 @@ updating the documentation, as it's updated once as part of the release process.
 To generate an updated version of the man page, run ``make man`` in the
 ``docs`` directory. The new man page will be written in
 ``docs/_build/man/django-admin.1``.
+
+
+.. _listapi:
+
+``listapi``
+----------
+
+The ``listapi`` command lists all API endpoints defined in the Django project. It can be useful for quickly seeing what APIs are available in your application.
+
+To run the command, use:
+
+.. console::
+
+   $ python manage.py listapi
+
+This will output all the API endpoints, including the URL patterns and their associated view names.
+
+
